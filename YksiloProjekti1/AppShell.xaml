@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="YksiloProjekti1.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:YksiloProjekti1"
+    xmlns:Views="clr-namespace:YksiloProjekti1.Views"
+    Shell.FlyoutBehavior="Disabled"
+    Title="YksiloProjekti1">
+
+    <TabBar>
+        <ShellContent
+            Title="Home"
+            ContentTemplate="{DataTemplate Views:Home}"
+            Route="Home" 
+            Icon="house_solid.svg" />
+
+        <ShellContent
+            Title="Edit"
+            ContentTemplate="{DataTemplate Views:Edit}"
+            Route="Edit" 
+            Icon="wrench_solid.svg"/>
+
+        <ShellContent
+            Title="About"
+            ContentTemplate="{DataTemplate Views:About}"
+            Route="About" 
+            Icon="info_solid.svg"/>
+
+        
+
+    </TabBar>
+
+</Shell>

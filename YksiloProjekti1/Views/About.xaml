@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="YksiloProjekti1.Views.About"
+             Title="About">
+    <VerticalStackLayout>
+        <Label
+            Text="Magic 8-ball info"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center"
+            FontSize="25"
+            FontFamily="TTPhobosTrialBold"/>
+        
+        <Label 
+            Text="This app was made during Karelia mobile development course by Eetu Hirvonen"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" 
+            Margin="35" 
+            FontFamily="TTPhobosTrialRegular"/>
+
+        <Label 
+            Text="Hint! Just wiggle the device in the main menu and hopefully your question will get answered"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" 
+            Margin="35, 0, 0, 0"
+            FontFamily="TTPhobosTrialRegular"/>
+        
+    </VerticalStackLayout>
+</ContentPage>

@@ -1,0 +1,22 @@
+﻿[
+  {
+    "id": 1,
+    "response": "Nah"
+  },
+  {
+    "id": 2,
+    "response": "Maybe"
+  },
+  {
+    "id": 3,
+    "response": "Yes"
+  },
+  {
+    "id": 4,
+    "response": "No"
+  },
+  {
+    "id": 5,
+    "response": "I don't know"
+  }
+]

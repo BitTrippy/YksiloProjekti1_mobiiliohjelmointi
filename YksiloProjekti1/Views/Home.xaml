@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="YksiloProjekti1.Views.Home"
+             Title="Home">
+    <StackLayout>
+        
+        <Label 
+            Text="Ask anything"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center"
+            FontSize="25"
+            FontFamily="TTPhobosTrialRegular"/>
+
+        <Label 
+            Text="The Magic 8-ball says:"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center"
+            Margin="35"
+            FontSize="20"
+            FontFamily="TTPhobosTrialRegular"/>
+        
+        <Label 
+            x:Name="AnswerBox"
+            Text="{Binding Response}"
+            FontSize="20"
+            FontFamily="TTPhobosTrialBold"
+            FontAttributes="Bold" 
+            VerticalOptions="Center" 
+            HorizontalOptions="Center"/>
+        
+    </StackLayout>
+</ContentPage>
